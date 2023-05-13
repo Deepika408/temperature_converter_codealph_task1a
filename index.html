@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+
+        <label for="temp">Please enter the temperature you want to convert</label>
+
+
+        <input type="text" id="input-temp" placeholder="35">
+        <br>
+
+        <button onclick="convert_f_fun();fun()" >Fahrenheit Conversion</button>
+        <button onclick="convert_c_fun();fun()">Celsius Conversion</button>
+
+        <div id="output"></div>
+
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
